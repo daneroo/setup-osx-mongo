@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>org.mongodb.mongod</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/daniel/Downloads/mongo/bin/mongod</string>
+    <string>run</string>
+    <string>--dbpath</string>
+    <string>/Users/daniel/Downloads/mongo/data</string>
+    <string>--logpath</string>
+    <string>/Users/daniel/Downloads/mongo/logs/mongodb.log</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <false/>
+  <key>UserName</key>
+  <string>daniel</string>
+  <key>WorkingDirectory</key>
+  <string>/Users/daniel/Downloads/mongo</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/daniel/Downloads/mongo/logs/error.log</string>
+  <key>StandardOutPath</key>
+  <string>/Users/daniel/Downloads/mongo/logs/output.log</string>
+</dict>
+</plist>
