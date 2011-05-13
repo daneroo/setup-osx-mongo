@@ -1,5 +1,7 @@
 # Setup for mongo under OSX
 
+_Note: I put my installation in `~/Downloads/mongo`, but you may put it elsewhwere_
+
 Clone this repo, or get the example config file: `org.mongodb.mongod.plist`.
 
     git clone git://github.com/daneroo/setup-osx-mongo.git mongo
