@@ -6,6 +6,8 @@ Clone this repo, or get the example config file: `org.mongodb.mongod.plist`.
 
     git clone git://github.com/daneroo/setup-osx-mongo.git mongo
 
+If your git is not yet installed see: [Github instrucstion for OXS](http://help.github.com/mac-set-up-git/)
+
 Download the [latest binary for OSX](http://www.mongodb.org/downloads). 
 As of this writing this was:
 
