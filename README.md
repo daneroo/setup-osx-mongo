@@ -1,8 +1,8 @@
 # Setup for mongo under OSX
 
-Clone this repo, or get the example config.
+Clone this repo, or get the example config file: `org.mongodb.mongod.plist`.
 
-    git clone https://daneroo@github.com/daneroo/setup-osx-mongo.git mongo
+    git clone git://github.com/daneroo/setup-osx-mongo.git mongo
 
 Download the [latest binary for OSX](http://www.mongodb.org/downloads). 
 As of this writing this was:
