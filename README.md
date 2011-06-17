@@ -1,5 +1,18 @@
 # Setup for mongo under OSX
 
+## Shortcuts
+start/stop
+
+    launchctl start org.mongodb.mongod
+    launchctl stop org.mongodb.mongod
+
+repair
+
+    rm ~/Downloads/mongo/data/mongod.lock
+    mongod --repair --dbpath ~/Downloads/mongo/data
+
+where: data and logs are in `~/Downloads/mongo/[data|logs]`
+## Introduction
 _Note: I put my installation in `~/Downloads/mongo`, but you may put it elsewhwere_
 
 Clone this repo, or get the example config file: `org.mongodb.mongod.plist`.
@@ -21,6 +34,11 @@ As of this writing this was:
     # dirs to hold data and logs
     mkdir data
     mkdir logs
+
+## Repair Server after unclean shutdown
+
+    rm ~/Downloads/mongo/data/mongod.lock
+    mongod --repair --dbpath ~/Downloads/mongo/data
 
 ## Run server from command-line
     bin/mongod --dbpath ./data
