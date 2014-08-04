@@ -1,5 +1,7 @@
 # Setup for mongo under OSX
 
+This should be superseeded by *(boot2)docker* instructions
+
 ## Shortcuts
 start/stop
 
@@ -19,12 +21,12 @@ Clone this repo, or get the example config file: `org.mongodb.mongod.plist`.
 
     git clone git://github.com/daneroo/setup-osx-mongo.git mongo
 
-If your git is not yet installed see: [Github instructions for OXS](http://help.github.com/mac-set-up-git/)
+If your git is not yet installed see: [Github instructions for OSX](http://help.github.com/mac-set-up-git/)
 
 Download the [latest binary for OSX](http://www.mongodb.org/downloads). 
 As of this writing this was:
 
-    curl http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-1.8.1.tgz > mongo.tgz
+    curl --insecure https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-2.6.3.tgz > mongo.tgz
     tar xzf mongo.tgz
     # rm mongo.tgz  # remove this when you're done
     # link or move the bin directory
