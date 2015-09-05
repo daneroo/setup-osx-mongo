@@ -1,6 +1,7 @@
+
 # Setup for mongo under OSX
 
-This should be superseeded by *(boot2)docker* instructions
+This should be superseeded by *(boot2)docker(-machine)* instructions
 
 ## Shortcuts
 start/stop
